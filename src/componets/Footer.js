@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
    
-<footer class="p-4 bg-white sm:p-6 ">
+<footer class="p-4 bg-white sm:p-6 fixed bottom-0 w-full">
     <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           

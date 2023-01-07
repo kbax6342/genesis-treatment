@@ -25,7 +25,7 @@ export default function Coming() {
 
         <>
             <form 
-                className='max-w-md mx-auto'
+                className='max-w-[250px] md:max-w-md mx-auto '
                 onSubmit={handleSubmit}
                 method="POST"
 
@@ -35,7 +35,7 @@ export default function Coming() {
                         type="text"
                         placeholder="Your name"
                         name="name"
-                        className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-600 bg-cyan-200 relative md:bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                         required
                     />
                 </div>
@@ -44,7 +44,7 @@ export default function Coming() {
                         type="email"
                         placeholder="Email"
                         name="email"
-                        className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-600 bg-cyan-200 relative md:bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                         required
                     />
                 </div>
@@ -52,7 +52,7 @@ export default function Coming() {
                     <textarea
                         placeholder="Your message"
                         name="message"
-                        className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+                        className="px-3 py-3 placeholder-gray-400 text-gray-600 bg-cyan-200 relative md:bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
                         required
                     />
                 </div>
