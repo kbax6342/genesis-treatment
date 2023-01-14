@@ -25,7 +25,7 @@ export default function Coming() {
 
         <>
             <form 
-                className='max-w-[250px] md:max-w-md mx-auto '
+                className='max-w-[350px] md:max-w-md mx-auto  mb-[400px]'
                 onSubmit={handleSubmit}
                 method="POST"
 
