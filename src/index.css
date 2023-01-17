@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:wght@300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 
 body {
@@ -21,6 +22,10 @@ code {
 
 .roboto{
   font-family: 'Roboto', sans-serif;
+}
+
+.poppins{
+  font-family:'Poppins', sans-serif;;
 }
 
 
