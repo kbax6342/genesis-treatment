@@ -1,0 +1,9 @@
+.bg-mask{
+    background: url('https://i.ibb.co/DCsGMZg/Untitled-design-5.png') rgba(255, 0, 150, 0.3);
+}
+
+.testclass {
+    background-image: url("https://i.ibb.co/DCsGMZg/Untitled-design-5.png");
+    position: relative;
+  }
+  

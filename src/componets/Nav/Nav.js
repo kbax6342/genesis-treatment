@@ -33,9 +33,10 @@ export default function Nav() {
 		<ul className="flex grow justify-between px-5 roboto">
 			<li className="hover:text-sky-600">Home</li>
 			<li className="hover:text-sky-600">About</li>
+			<li className="hover:text-sky-600">Recovery Services</li>
+			<li className="hover:text-sky-600">Information</li>
+			<li className="hover:text-sky-600">Payments</li>
 			<li className="hover:text-sky-600">Contact</li>
-			<li className="hover:text-sky-600">Resources</li>
-			<li className="hover:text-sky-600">Programs</li>
 		</ul>
 		<div className="border-l-2  flex flex-none items-center px-3">
 			<div className="bg-sky-600 rounded-lg p-5 text-white font-semibold text-lg">
