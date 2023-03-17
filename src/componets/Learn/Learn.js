@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Learn() {
   return (
-    <div className="bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 flex flex-row mx-auto py-6 justify-between mt-[40px] px-6">
-      <div className="rounded-full bg-sky-400 w-[300px] h-[300px] pt-10 pb-5 px-4 flex flex-col justify-around border-4 shadow-black">
+    <div className="hidden lg:block bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500 flex-row mx-auto py-6 justify-between mt-[40px] px-6">
+      <div className=" lg:flex max-w-screen-lg   mx-auto  justify-around">
+      <div className="rounded-full bg-sky-400 w-[300px] h-[300px] pt-10 pb-5 px-4 flex flex-col justify-around border-4 shadow-black mr-5">
         <p className="font-bold text-white">UPSCALE SOBER LIVING & RECOVERY HOMES</p>
         <p className="text-sm font-semibold text-white">
           The comforts of upscale recovery housing with support and guidance
@@ -12,7 +13,7 @@ export default function Learn() {
         </p>
         <span className=" text-[#D5505A] font-bold roboto">LEARN MORE</span>
       </div>
-      <div className="rounded-full bg-sky-400 w-[300px] h-[300px] pt-10 pb-5 px-4 flex flex-col justify-around border-4">
+      <div className="rounded-full bg-sky-400 w-[300px] h-[300px] pt-10 pb-5 px-4 flex flex-col justify-around border-4 mr-5">
         <p  className="font-bold text-white">A NETWORK OF RECOVERY SERVICES</p>
         <p className="text-sm font-semibold text-white">
           Combining sober living homes with drug & alcohol addiction or
@@ -31,6 +32,8 @@ export default function Learn() {
         </p>
         <span className=" text-[#D5505A] font-bold roboto">LEARN MORE</span>
       </div>
+      </div>
+      
     
     </div>
   );
